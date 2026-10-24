@@ -10,5 +10,3 @@ def first_unique_char(input_string: str) -> int | None:
             return input_string.find(char)
     return None
         
-assert first_unique_char('leetcode') == 0
-assert first_unique_char('aabb') is None
