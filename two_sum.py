@@ -1,4 +1,4 @@
-def two_sum(nums: list[int], targer: int) -> list[int, int] | None:
+def two_sum(nums: list[int], targer: int) -> tuple[int, int] | None:
     i = 0
     j = len(nums) - 1
     while i < j:
